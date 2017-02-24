@@ -1,3 +1,7 @@
 body {
     position: relative;
 }
+
+.row {
+    padding-top: 30px;
+}
