@@ -5,3 +5,26 @@ body {
 .row {
     padding-top: 30px;
 }
+
+#life_content {
+    padding-top: 30px;
+}
+
+.cover {
+    background-size: cover;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1, h2, ul, ol {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    #takamatsu_picture {
+        height: 80%;
+    }
+}
