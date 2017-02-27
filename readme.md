@@ -8,9 +8,9 @@ A responsive static web page built as a tribute to Takamatsu Toshitsugu
 *Desktop* 
 
 ![screenshot]
-(http://i.imgur.com/RYbUfOj.png)
+(http://i.imgur.com/Ah7ieoQ.png)
 *Mobile*
 
 ![screenshot]
-(http://i.imgur.com/gR7XZ8E.png)
+(http://i.imgur.com/qhyPon2.png)
 *ipad*
