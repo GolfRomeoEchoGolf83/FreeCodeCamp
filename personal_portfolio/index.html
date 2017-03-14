@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optionnal Bootstrap theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <title>Personal portfolio</title>
 </head>
 
 <body id="body_background">
+    <!-- HEADER -->
+    <div class="site-wrapper_header ">
+        <h1>Let's create together a better world</h1>
+    </div>
     <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -39,29 +44,12 @@
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blog</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- HERO -->
-
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-          <div class="inner cover">
-            <h1 class="cover-heading">Gregory Decroix</h1>
-            <p class="lead">Hello, I'm Greg, Full Stack Web Developer with background in business law</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>
-            <i class="fa fa-github fa-3x" aria-hidden="true">GitHub</i>
-              <i class="fa fa-twitter fa-3x" aria-hidden="true">Twitter</i>
-              <i class="fa fa-free-code-camp fa-3x" aria-hidden="true">FreeCodeCamp</i>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- ABOUT -->
     <div class="row">
@@ -76,12 +64,34 @@
         <!-- images -->
     </div>
 
-
     <!-- CONTACT FORM -->
-    <div class="row">
-        <!-- icones -->
-        <!-- form -->
-    </div>
+    <form class="form-horizontal">
+        <!-- last name -->
+        <div class="form-group from-group_lastName">
+            <label class="control-label" for="from-group_lastName">Last Name</label>
+            <input class="form-control" id="last-name" type="text" name="from-group_lastName">
+        </div>
+        <!-- first name -->
+        <div class="form-group form-group_firstName">
+            <label class="control-label" for="from-group_firstName">First Name</label>
+            <input class="form-control" id="first-name" type="text" name="from-group_firstName">
+        </div>
+        <!-- email -->
+        <div class="form-group form-group_email">
+            <label class="control-label requiredField" for="email">Email</label>
+            <input class="form-control" id="email" name="email" type="text">
+        </div>
+        <!-- message -->
+        <div class="form-group form-group_message">
+            <label class="control-label" for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="10" cols="40"></textarea>
+        </div>
+        <!-- button -->
+        <div class="form-group">
+            <button class="btn btn-primary" name="submit" type="submit">Submit</button>
+        </div>
+    </form>
+
 
 
 
@@ -92,8 +102,7 @@ SCRIPTS
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 
