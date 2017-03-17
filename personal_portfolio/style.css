@@ -1,4 +1,4 @@
-    /*  ==== Globals ==== */
+/*  ==== Globals ==== */
 
 
 /* ---- Links ---- */
@@ -14,14 +14,21 @@ a:hover {
 
 html,
 body {
-    height: 100%;
-    background-color: #333;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
 }
 
-body {
+h1 {
     color: #fff;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
 }
 
 
@@ -44,15 +51,6 @@ body {
 
 /* --- Cover --- */
 
-.cover {
-    padding: 0 20px;
-}
-
-.cover .btn-lg {
-    padding: 10px 20px;
-    font-weight: bold;
-}
-
 .twitter,
 .github,
 .freecodecamp {
@@ -60,26 +58,26 @@ body {
 }
 
 
-/* Custom default button */
+/* --- Form ---*/
 
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-    color: #333;
-    text-shadow: none;
-    /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: 1px solid #fff;
+.contact {
+    display: flex;
 }
 
+.div_form {
+    width: 60%;
+    margin-left: 100px;
+}
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
+.form-group {
+    display: inline;
+}
 
-.site-wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
-    /* For at least Firefox */
-    min-height: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+.form-control {
+    width: 50%;
+    display: block;
+}
+
+.row_social {
+    width: 40%;
+}
