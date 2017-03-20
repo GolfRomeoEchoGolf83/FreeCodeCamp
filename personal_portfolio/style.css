@@ -58,6 +58,19 @@ h1 {
 }
 
 
+/* --- Portfolio --- */
+
+.personal_portfolio {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.thumbnail {
+    margin-bottom: 0;
+}
+
+
 /* --- Form ---*/
 
 .contact {
